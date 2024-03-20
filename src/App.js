@@ -1,7 +1,12 @@
+import { Header } from './components';
+import { Router } from './routes';
+
 const App = () => {
     return (
         <div>
-            <h1>Hello, world!</h1>
+            <Header />
+            <Router />
+            {/* <h1>Hello, world!</h1> */}
         </div>
     );
 };
