@@ -9,3 +9,7 @@ export const goToProjects = (navigator) => {
 export const goToAbout = (navigator) => {
     navigator('/about');
 };
+
+export const goToContact = (navigator) => {
+    navigator('/contact');
+};

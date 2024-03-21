@@ -14,7 +14,6 @@
         "react-scripts": "5.0.1",
         "styled-components": "^6.1.8"
     },
-    "homepage": "https://github.com/amandapolari/amandapolari.github.io",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",

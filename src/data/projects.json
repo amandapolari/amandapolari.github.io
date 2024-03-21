@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Criptogracinha",
+        "image": "https://github.com/amandapolari/SAP008-cipher/raw/main/src/img/gif-super-completo.gif",
+        "resume": "Uma single page application contruída apenas com HTML, CSS e JavaScript que permite criptografar e descriptografar mensagens.",
+        "description": "Cipher foi o primeiro projeto desenvolvido no bootcamp da Laboratoria. O seu principal objetivo era construir uma aplicação web que possa interagir com o usuário através do navegador utilizando HTML, CSS e JavaScript. Nesta aplicação, o usuário precisa digitar um offset, escrever seu texto e receber sua mensagem criptografada. A partir disso, criptogracinha utiliza a cifra de César para criptografar e descriptografar mensagens. Não há restrições para digitação de mensagem, o usuário pode digitar letras maiúsculas, minúsculas, números e caracteres especiais. A mensagem cifrada aparece simultâneamente à sua digitação, sem a necessidade de um botão para realizar a cifragem ou decifragem.Além disso a aplicação copia automaticamente o resultado, ou seja, se vc digitar uma mensagem na caixa 'mensagem original' a sua mensagem cifrada já fica copiada para a área de transferência, o inverso também é válido. O usuário também receberá uma notificação de sucesso confirmando a cópia do texto.",
+        "technologies": ["html", "css", "javascript"],
+        "link_github": "https://github.com/amandapolari/SAP008-cipher",
+        "link_deploy": "https://amandapolari.github.io/SAP008-cipher/src/index.html",
+        "type": "frontend"
+    },
+    {
+        "name": "Data LoLvers",
+        "image": "https://github.com/amandapolari/SAP008-data-lovers/raw/main/src/img/gif-data-lovers.gif",
+        "resume": "Uma single page application contruída apenas com HTML, CSS e JavaScript na qual o usuário pode visualizar, filtrar e ordenar dados de acordo com a sua necessidade.",
+        "description": "O Data LoLvers foi pensado e formulado, inicialmente, para usuários que querem começar a jogar League of Legends e, para isso, precisam conhecer e escolher um personagem (campeão) para iniciar essa jornada! Logo, a página inicial oferece aos usuários opções de três banneres clicáveis que levam diretamente ao resultado de campeões do 'tipo' assassino, atirador e suporte com nível de dificuldade 'fácil', conforme o banner escolhido. Adicionalmente o usuário tem a possibilidade de filtrar e ordenar os personagens de acordo com os tipos de campeões do jogo e os níveis de dificuldades existentes para cada um deles, respectivamente. Além disso, também é possível ordená-los por nome de forma ascendente (A-Z) e descendente (Z-A). O resultado da pesquisa é apresentado em forma de cards, com frente e verso, onde na frente há a imagem do campeão, nome e título e no verso contém seus principais atributos como: ataque, defesa, magia, nível de dificuldade e o tipo do campeão selecionado. Para facilitar a navegação do usuário, a página contém um botão de 'Limpar' que limpa a pesquisa e retorna a página inicial, e o botão 'Topo', para retorna para o topo da página.",
+        "technologies": ["html", "css", "javascript"],
+        "link_github": "https://github.com/amandapolari/SAP008-data-lovers",
+        "link_deploy": "https://amandapolari.github.io/SAP008-data-lovers/src/index.html",
+        "type": "frontend"
+    },
+    {
+        "name": "LabeCommerce Frontend",
+        "image": "https://github.com/amandapolari/projeto-frontendreact/raw/main/labecommerce/src/assets/img/site.gif",
+        "resume": "Front-end de um e-commerce com carrinho de compras, filtros de busca, ordenação e persistência de dados com local storage.",
+        "description": "O Labecommerce é um e-commerce com recursos avançados que permite aos usuários ordenar, pesquisar e filtrar produtos de forma intuitiva. Ele também oferece um carrinho de compras completo, com resumo da compra, opção de limpar o carrinho e ajustar as quantidades. Além disso, o Labecommerce possui organização em páginas e a capacidade de ocultar o carrinho para visualizar mais produtos.",
+        "technologies": ["javascript", "react", "styled-components"],
+        "link_github": "https://github.com/amandapolari/projeto-frontendreact",
+        "link_deploy": "https://amandapolari.github.io/projeto-frontendreact/",
+        "type": "frontend"
+    },
+    {
+        "name": "Pokedex",
+        "image": "https://github.com/amandapolari/projeto-react-apis/raw/main/pokedex/src/assets/images/site.gif",
+        "resume": "A Pokedex é uma aplicação web que permite aos usuários explorar dados da API dos pokémons.",
+        "description": "A Pokedex é uma aplicação web que permite aos usuários explorar dados da API dos pokémons. O site exibe informações sobre vários pokémons e possibilita criar uma pokédex personalizada. Desenvolvido com tecnologias como JavaScript, React e Styled Components, o projeto oferece uma experiência interativa. Os usuários podem ver cards de pokémons na página inicial, onde podem acessar detalhes e adicionar pokémons à sua pokédex. A funcionalidade de paginação permite navegar por diferentes páginas de pokémons.",
+        "technologies": ["javascript", "react", "styled-components"],
+        "link_github": "https://github.com/amandapolari/projeto-react-apis",
+        "link_deploy": "https://project-pokedex-cyan.vercel.app/",
+        "type": "frontend"
+    },
+    {
+        "name": "Cookenu",
+        "image": "https://github.com/amandapolari/cookenu/raw/main/src/images/images-readme/cookenu.gif",
+        "resume": "Cookenu é um projeto proposto pela Labenu com o objetivo de revisar o módulo de React com integração de APIs, utilização de Design System e aplicação de Rotas.",
+        "description": "O Cookenu é um espaço online para amantes da culinária, onde é possível explorar, compartilhar e descobrir novas receitas. A autenticação segura permite que os usuários se cadastrem e façam login, enquanto uma interface amigável facilita a navegação entre diversas receitas.",
+        "technologies": ["javascript", "react", "styled-components"],
+        "link_github": "https://github.com/amandapolari/cookenu",
+        "link_deploy": "https://cookenu-smoky.vercel.app/",
+        "type": "frontend"
+    },
+    {
+        "name": "Labeddit",
+        "image": "https://github.com/amandapolari/labeddit-frontend/raw/main/labeddit/src/assets/images/operation-application.gif",
+        "resume": "O Labbedit é um projeto full-stack de conclusão de curso do bootcamp da Labenu. O projeto consiste em uma rede social na qual é possível se cadastrar, fazer login, criar, editar e excluir posts e comentários. Além disso há a possibilidade curtir ou descurtir posts e comentários de outros usuários.",
+        "description": "O Labeddit é um projeto full-stack, que consiste em uma rede social na qual é possível se cadastrar, fazer login, criar, editar e excluir posts e comentários. Além disso para um maior engajamento entre os usuários é possível dar like e dislike em posts e comentários de outros usuários da rede.",
+        "technologies": [
+            "javascript",
+            "typscript",
+            "react",
+            "styled-components",
+            "material ui"
+        ],
+        "link_github": "https://github.com/amandapolari/labeddit-frontend",
+        "link_deploy": "https://labeddit-frontend.onrender.com/",
+        "type": "fullstack"
+    },
+    {
+        "name": "Labook",
+        "image": "https://github.com/amandapolari/projeto-labook-backend/raw/main/src/images/image-1.png",
+        "resume": "API de uma rede social que possui usuários, posts e interação entre os usuários através de like e dislike",
+        "description": "O Labook é uma API de rede social que permite a interação entre os usuários. Ao se cadastrar e fazer login na plataforma, os usuários podem criar, dar like ou dislike em postagens de outros usuários. A plataforma oferece uma variedade de recursos e funcionalidades que incluem: Cadastro de Usuários: Através do processo de cadastro, os usuários podem criar suas contas na plataforma, fornecendo informações pessoais básicas como nome, email e senha. Criação de Postagens: Os membros do Labook têm a capacidade de compartilhar suas ideias, pensamentos e experiências por meio de postagens. Likes e Dislikes: Os usuários podem 'curtir' ou 'descurtir' postagens de outros membros, permitindo uma variedade de interações e opiniões sobre o conteúdo compartilhado. Gerenciamento de Postagens: Os criadores de postagens têm controle total sobre seu conteúdo, podendo editá-lo ou excluí-lo conforme necessário. Recursos de Segurança: Para garantir a segurança e privacidade dos usuários, o Labook implementa medidas de segurança, como senhas criptografadas e autenticação por meio de tokens JWT.",
+        "technologies": ["typscript", "express", "my sql", "postman"],
+        "link_github": "https://github.com/amandapolari/projeto-labook-backend",
+        "link_deploy": "https://documenter.getpostman.com/view/28316385/2s9Ye8fuWG",
+        "type": "backend"
+    },
+    {
+        "name": "LabeCommerce Backend",
+        "image": "https://raw.githubusercontent.com/amandapolari/labecommerce-backend/main/src/images/endpoints_postman.gif?token=GHSAT0AAAAAACNBYJQU5AMGZDJ453U3AQ7QZP4RFVA",
+        "resume": "API para gerenciar usuários, produtos e compras em um ambiente de comércio eletrônico.",
+        "description": "O Labecommerce-Backend é o primeiro projeto do Módulo Backend do Bootcamp da Labenu e consiste em uma API para gerenciar usuários, produtos e compras em um ambiente de comércio eletrônico. A API oferece operações de CRUD abrangentes, o que facilita a administração desses elementos essenciais. Desenvolvida com tecnologias como Node.js, Typescript, Express e SQLite, a API disponibiliza um conjunto completo de endpoints, com destaque para a documentação detalhada no Postman.",
+        "technologies": ["typescript", "react", "styled-components"],
+        "link_github": "https://github.com/amandapolari/labecommerce-backend",
+        "link_deploy": "https://documenter.getpostman.com/view/28316385/2s9YCBsofL#intro",
+        "type": "backend"
+    }
+]

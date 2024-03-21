@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AboutPage, HomePage, ProjectsPage } from '../pages';
+import { AboutPage, ContactPage, HomePage, ProjectsPage } from '../pages';
 import { Header } from '../components/header';
 
 export const Router = () => {
@@ -10,6 +10,7 @@ export const Router = () => {
                 <Route path='/' element={<HomePage />} />
                 <Route path='/projects' element={<ProjectsPage />} />
                 <Route path='/about' element={<AboutPage />} />
+                <Route path='/contact' element={<ContactPage />} />
                 {/* <Route path="*" element={<ErrorsPage />} /> */}
             </Routes>
         </BrowserRouter>

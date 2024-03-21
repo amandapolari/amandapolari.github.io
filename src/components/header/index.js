@@ -1,6 +1,11 @@
 import { useNavigate } from 'react-router-dom';
 import { ContainerHeader } from './style';
-import { goToAbout, goToHome, goToProjects } from '../../routes/coordinator';
+import {
+    goToAbout,
+    goToContact,
+    goToHome,
+    goToProjects,
+} from '../../routes/coordinator';
 
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
@@ -52,9 +57,9 @@ export const Header = () => {
                             <Tab
                                 label='Contact'
                                 value='4'
-                                // onClick={(e) => {
-                                //     goToAbout(navigator);
-                                // }}
+                                onClick={(e) => {
+                                    goToContact(navigator);
+                                }}
                             />
                         </TabList>
                     </Box>
